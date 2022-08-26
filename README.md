@@ -1,6 +1,6 @@
-# market-watch
+# trade-journal
 
-Provides data about Stocks, Cryptocurrency and Forex Market.
+Trade Journal to track Watchlists, Trade and Strategy.
 
 # Tech Stack
 

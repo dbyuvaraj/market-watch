@@ -1,22 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-import { StyledMenu } from './styled/Menu.styled'
+import { StyledMenu, StyledNavLink } from './styled/Menu.styled'
 
 const Menu: React.FC = () => (
   <StyledMenu>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <StyledNavLink to="/" end>
+          Home
+        </StyledNavLink>
       </li>
       <li>
-        <Link to="/stock">Stock</Link>
+        <StyledNavLink to="/watchlist">Watchlist</StyledNavLink>
       </li>
       <li>
-        <Link to="/forex">Forex</Link>
+        <StyledNavLink to="/forex">Forex</StyledNavLink>
       </li>
       <li>
-        <Link to="/coin">Coin</Link>
+        <StyledNavLink to="/coin">Coin</StyledNavLink>
       </li>
     </ul>
   </StyledMenu>
