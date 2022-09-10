@@ -1,10 +1,10 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Home from '../pages/Home'
-import Watchlist from '../pages/Watchlist'
-import Coin from '../pages/Coin'
-import Forex from '../pages/Forex'
+import Home from '@pages/Home'
+import Watchlist from '@pages/Watchlist'
+import Coin from '@pages/Coin'
+import Forex from '@pages/Forex'
 
 const RouteConfig: React.FC = () => (
   <Routes>

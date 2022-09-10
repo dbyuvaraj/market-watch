@@ -1,6 +1,6 @@
 import React from 'react'
-import Menu from './Menu'
-import StyledSidebar from './styled/Sidebar.styled'
+import Menu from '@components/Menu'
+import StyledSidebar from '@components/styled/Sidebar.styled'
 
 const Sidebar: React.FC = () => (
   <StyledSidebar>

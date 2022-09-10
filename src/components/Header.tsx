@@ -1,7 +1,7 @@
 import React from 'react'
 
-import UserInfo from './UserInfo'
-import { StyledHeader, Logo } from './styled/Header.styled'
+import UserInfo from '@components/UserInfo'
+import { StyledHeader, Logo } from '@components/styled/Header.styled'
 
 const Header: React.FC = () => (
   <StyledHeader>

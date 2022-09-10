@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { StyledMenu, StyledNavLink } from './styled/Menu.styled'
+import { StyledMenu, StyledNavLink } from '@components/styled/Menu.styled'
 
 const Menu: React.FC = () => (
   <StyledMenu>
